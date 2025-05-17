@@ -131,11 +131,12 @@ function App() {
             </div>
           </section>
           <section id="portfolio" ref={sectionRefs.portfolio}>
-            <h2 style={{marginBottom:24}}>Portfolyo</h2>
-            <div style={{
+            <h2>Portfolyo</h2>
+            <div className="about-section-flex" style={{
               display: 'grid',
               gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
               gap: 24,
+              marginTop: 24,
               justifyItems: 'start',
               alignItems: 'stretch',
               maxWidth: 1200,
@@ -144,27 +145,27 @@ function App() {
               paddingLeft: 32
             }}>
               <a href="https://github.com/MuratEfeCamoglu/MuratEfeCamoglu202313709029UygulamaProjes-.git" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', width:'100%'}}>
-                <div style={{background:'#23272b', borderRadius:12, padding:'32px 24px', minWidth:0, boxShadow:'0 2px 12px rgba(0,0,0,0.15)', display:'flex', flexDirection:'column', alignItems:'flex-start', justifyContent:'center', height:'100%'}}>
+                <div style={{background:'#23272b', borderRadius:12, padding:'32px 24px', minWidth:0, boxShadow:'0 2px 12px rgba(0,0,0,0.15)', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', height:'100%', width:'100%'}}>
                   <div style={{fontWeight:700, color:'#f5f6fa', fontSize:18, marginBottom:8}}>NBA Uygulaması</div>
-                  <div style={{color:'#b0b3b8', fontSize:15}}>NBA istatistiklerini ve güncel haberleri gösteren uygulama.</div>
+                  <div style={{color:'#b0b3b8', fontSize:15, textAlign:'center'}}>NBA istatistiklerini ve güncel haberleri gösteren uygulama.</div>
                 </div>
               </a>
               <a href="https://github.com/MuratEfeCamoglu/Gorsel-Programlama-Efe" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', width:'100%'}}>
-                <div style={{background:'#23272b', borderRadius:12, padding:'32px 24px', minWidth:0, boxShadow:'0 2px 12px rgba(0,0,0,0.15)', display:'flex', flexDirection:'column', alignItems:'flex-start', justifyContent:'center', height:'100%'}}>
+                <div style={{background:'#23272b', borderRadius:12, padding:'32px 24px', minWidth:0, boxShadow:'0 2px 12px rgba(0,0,0,0.15)', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', height:'100%', width:'100%'}}>
                   <div style={{fontWeight:700, color:'#f5f6fa', fontSize:18, marginBottom:8}}>Hesap Makinesi</div>
-                  <div style={{color:'#b0b3b8', fontSize:15}}>Dört işlem yapabilen basit hesap makinesi uygulaması.</div>
+                  <div style={{color:'#b0b3b8', fontSize:15, textAlign:'center'}}>Dört işlem yapabilen basit hesap makinesi uygulaması.</div>
                 </div>
               </a>
               <a href="https://github.com/MuratEfeCamoglu/Gorsel-Programlama-Efe" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', width:'100%'}}>
-                <div style={{background:'#23272b', borderRadius:12, padding:'32px 24px', minWidth:0, boxShadow:'0 2px 12px rgba(0,0,0,0.15)', display:'flex', flexDirection:'column', alignItems:'flex-start', justifyContent:'center', height:'100%'}}>
+                <div style={{background:'#23272b', borderRadius:12, padding:'32px 24px', minWidth:0, boxShadow:'0 2px 12px rgba(0,0,0,0.15)', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', height:'100%', width:'100%'}}>
                   <div style={{fontWeight:700, color:'#f5f6fa', fontSize:18, marginBottom:8}}>Not Defteri</div>
-                  <div style={{color:'#b0b3b8', fontSize:15}}>Notlarınızı kaydedebileceğiniz basit not defteri uygulaması.</div>
+                  <div style={{color:'#b0b3b8', fontSize:15, textAlign:'center'}}>Notlarınızı kaydedebileceğiniz basit not defteri uygulaması.</div>
                 </div>
               </a>
               <a href="https://github.com/MuratEfeCamoglu/Gorsel-Programlama-Efe" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', width:'100%'}}>
-                <div style={{background:'#23272b', borderRadius:12, padding:'32px 24px', minWidth:0, boxShadow:'0 2px 12px rgba(0,0,0,0.15)', display:'flex', flexDirection:'column', alignItems:'flex-start', justifyContent:'center', height:'100%'}}>
+                <div style={{background:'#23272b', borderRadius:12, padding:'32px 24px', minWidth:0, boxShadow:'0 2px 12px rgba(0,0,0,0.15)', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', height:'100%', width:'100%'}}>
                   <div style={{fontWeight:700, color:'#f5f6fa', fontSize:18, marginBottom:8}}>Soru Bankası</div>
-                  <div style={{color:'#b0b3b8', fontSize:15}}>Çeşitli konularda sorular içeren soru bankası uygulaması.</div>
+                  <div style={{color:'#b0b3b8', fontSize:15, textAlign:'center'}}>Çeşitli konularda sorular içeren soru bankası uygulaması.</div>
                 </div>
               </a>
             </div>
