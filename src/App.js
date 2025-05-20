@@ -71,7 +71,7 @@ function App() {
         <div className="sections-wrapper">
           <section id="home" ref={sectionRefs.home}>
             <h1>Murat Efe Çamoğlu </h1>
-            <h2>Ben bir bilgisayar mühendisiyim öğrencisiyim.</h2>
+            <h2>Ben bir bilgisayar mühendisi öğrencisiyim.</h2>
             <h2>Aydın Efelerde yaşıyorum.</h2>
           </section>
           <section id="about" ref={sectionRefs.about}>
